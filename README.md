@@ -8,7 +8,7 @@ __여러분과 잘 맞는 연인을 찾기 힘드신가요? 그렇다면 MBTI궁
 > 맡은역할
 
 #### 📓사업구성📓
-* MBTI 검사 후 나온 MBTI와 궁합이 맞는 MBTI결과 자동 추천</br>
+* MBTI 검사 후 나온 결과와 궁합이 맞는 MBTI자동 추천</br>
 * 추천받은 MBTI에 해당하는 연예인도 알려주기</br>
 * 사용언어
 > ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
