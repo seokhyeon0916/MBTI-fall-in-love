@@ -37,7 +37,7 @@ body {
   font-weight: 900;
   font-size: 60px;
   text-align: center;
-  color: #2EC7A6;
+  color: #fe9eb1;/*핑크색으로 질문 번호 수정 (11/08)*/
 }
 .question-box .question {/*질문 부분 코드부분*/
   margin-bottom: 40px;
