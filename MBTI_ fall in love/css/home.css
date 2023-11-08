@@ -5,9 +5,16 @@ body {
   background-repeat: no-repeat;
 }
 .character {
-  max-width: 364px;
+  max-width: 600px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
+}
+.Logo {
+  display: flex;
+  float: right;
+  margin-top: -4%;
+  margin-right: 3%;
+  width: 100px;
 }
