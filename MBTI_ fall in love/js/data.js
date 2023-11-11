@@ -96,7 +96,7 @@ export const questions = [
       { text: '(메모장을 키며)<br>여기 가보고 싶다했으니까 여기로 동선 맞춰서 밥집이랑 카페 알아봐야겠다!' }
     ]
   },
-]
+];
 export const results = [
   {
     title: '출근 시간은<br>내가 정해!',
@@ -176,22 +176,22 @@ export const results = [
     lectureImg: '/images/result_lecture6.png',
     lectureUrl: 'https://bit.ly/3fzdinR'
   }
-]
+];
 export const mbtis = {
-  entj: 0,
-  entp: 0,
-  estp: 0,
-  esfp: 1,
-  esfj: 1,
-  enfj: 1,
-  infp: 2,
-  isfp: 2,
-  isfj: 2,
-  infj: 2,
-  estj: 3,
-  istp: 3,
-  intj: 4,
-  intp: 4,
-  istj: 4,
-  enfp: 5
+  ENTJ: 0,
+  ENTP: 0,
+  ESTP: 0,
+  ESFP: 1,
+  ESFJ: 1,
+  ENFJ: 1,
+  INFP: 2,
+  ISFP: 2,
+  ISFJ: 2,
+  INFJ: 2,
+  ESTJ: 3,
+  ISTP: 3,
+  INTJ: 4,
+  INTP: 4,
+  ISTJ: 4,
+  ENFP: 5
 }
