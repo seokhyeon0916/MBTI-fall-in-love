@@ -36,6 +36,7 @@ function renderQuestion() {
   choice1El.innerHTML = question.choices[0].text
   choice2El.innerHTML = question.choices[1].text
   progressValueEl.style.width = (currentNumber + 1) * 8.3 + '%'
+  
 }
 
 // 다음 질문으로 넘어가는 함수!
@@ -44,18 +45,29 @@ function nextQuestion() {
   if (currentNumber === questions.length - 1) {
     // console.log(myArray);
     console.log(mbti);
+    PPrint()
     showResultPage()
     return
   }
-  // const question = questions[currentNumber]
   currentNumber = currentNumber + 1
   renderQuestion()
 }
 
 // 결과 페이지로 이동!
 function showResultPage() {
-  location.href = '/results.html?mbti=' + mbtiResult
+  const mbtiResult1 = PPrint();
+
+  if(mbtiResult1){
+    console.log(mbtiResult1)
+    location.href = '/results.html?mbtiResult1=' + mbtiResult1;
+    // window.location.href = '/results.html?mbtiResult1='+mbtiResult1;
+  }else{
+      console.error('No')
+  }
+  
 }
+
+
 
 // '답변1' 혹은 '답변2'를 클릭했을 때 동작하는 코드!
 if (choice1El) {
@@ -71,9 +83,10 @@ if (choice1El) {
       PJ[0]++;
     }
     nextQuestion();
-    // console.log(myArray);
+    console.log(myArray);
     compareResult();
   });
+  
 }else{
   console.error('Element with class "choice1" not found.');
 }
@@ -89,7 +102,7 @@ if (choice2El) {
       PJ[1]++;
     }
     nextQuestion();
-    // console.log(myArray);
+    console.log(myArray);
     compareResult();
   });
 }else{
@@ -109,17 +122,18 @@ function compareResult(){
 
   console.log(mbti);
   return mbti;
-  
 
 }
 // result.js에서 updateMBTI를 import하려면 필요한 함수.
 export function updateMBTI() {
+  return compareResult();
   // compareResult 함수 호출 및 반환값 출력 또는 저장
-  mbtiResult = compareResult();
-  // console.log("MBTI Result:", mbtiResult);
-  return mbtiResult;
 }
-
+export function PPrint(){
+  const mbtiResult1 = updateMBTI();
+  console.log("MBTI=",mbtiResult1);
+  return mbtiResult1;
+}
 
 // 첫 번째 질문을 렌더링해요!
 renderQuestion()
