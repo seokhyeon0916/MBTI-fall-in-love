@@ -97,101 +97,233 @@ export const questions = [
     ]
   },
 ];
+
+
 export const results = [
-  {
-    title: '출근 시간은<br>내가 정해!',
+  {//ENTJ
+    title: '나는 ENTJ, <br>대담한 통솔자!',
     character: '/images/result_character1.png',
     results: [
-      '혼자서 멘탈 케어가 가능해요!<br>소속이 없어도, 벌이가 불안정해도 저는 지금이 좋아요!',
-      '일에 대한 욕심이 많아요.<br>행복한 야근이라고 할 수 있어요!',
-      '자유로운 환경에서 더 잘해요!<br>하지만 누구보다 스스로 시간 관리가 철저해요:)',
-      '리더십 있다는 소리를 자주 들어요.<br>추진력이 있는 편이죠~ (뿌듯)'
+      '나는 개인의 사생활이 중요해!',
+      '나는 연애는 연애고 결혼은 결혼이라고 생각해!',
+      '연애하면서 같이 성장한다면 <br>그것만큼 좋은건 없지!',
+      '하지만 나는 연애하는 티를 잘 내지 않아..ㅎ'
     ],
-    jobs: ['프리랜서', '창업가'],
+    jobs: ['INFP', 'INTP'],
     lectureImg: '/images/result_lecture1.png',
     lectureUrl: 'https://bit.ly/3Wr0kt6'
   },
-  {
-    title: '프로직진러!<br>진행력 갑',
+  {//ENTP
+    title: '나는 ENTP, <br> 단호박 먹은 연애불도저!',
     character: '/images/result_character2.png',
     results: [
-      '나는야 회사 사람들 멘탈 지킴이!<br>언제나 토닥토닥 으샤으샤 응원하며 다니는 파워 인싸!',
-      '여러 사람과 협업이 필요한 직무에 찰떡!',
-      '진행력 갑! 추진력 갑!<br>빠른 속도로 동시에 여러 업무를 해결할 수 있어요.',
-      '회사 행사나 크리스마스 이벤트,<br>회사사람들 생일까지 우리가 다 챙길게요'
+      '나는 내 짝궁의 사생활을 존중해~',
+      '연애한다고 통제하는건 싫어! 자유롭고싶어~~',
+      '나는 지적인 사람이 좋아!!',
+      '나랑 같이 토론 할 수 있는 사람이 좋아!'
     ],
-    jobs: ['마케터', '기획자'],
+    jobs: ['INFJ', 'INTJ'],
     lectureImg: '/images/result_lecture2.png',
     lectureUrl: 'https://bit.ly/3SZl1t9'
   },
-  {
-    title: '우리 무기는<br>상상력!',
+  {//ESTP
+    title: '나는 ESTP, <br>브레이크 고장난 연애직진러!',
     character: '/images/result_character3.png',
     results: [
-      '이것저것 관심이 많은 편이에요.<br>모든 게 궁금해요!',
-      '섬세함이 장점으로<br>업무를 센스 있게 처리한다는 말을 자주 들어요.',
-      '가끔은 거절을 잘 못해서 일이 몰릴 때가 있지만..!<br>전 괜찮아요~ (프로긍정러)',
-      '업무에 예민할 때도 있지만,<br>그래서 결과물은 완벽하죠!'
+      '나는 집착하거나 매달리는게 제일 싫어!',
+      '뒤끝? 그게 뭐죠?',
+      '내가 맘에 드는 사람 꼭 내 짝꿍으로 만들겠어..',
+      '나는 금사빠..하지만 쉽게 맘이 식어...'
     ],
-    jobs: ['디자이너', '예술가'],
+    jobs: ['ISTJ', 'ISFJ'],
     lectureImg: '/images/result_lecture3.png',
     lectureUrl: 'https://bit.ly/3DWlesG'
   },
-  {
-    title: '인생은<br>한방!',
+  {//ESFP
+    title: '나는 ESFP, <br>썸도 환승도 5G극한러버!',
     character: '/images/result_character4.png',
     results: [
-      '전략적으로 계획을 세우는 걸 좋아해요!',
-      '평소 경제와 사회 이슈에 관심이 매우 많아요.',
-      '꿈이 커요!<br>크게 성공할 수 있는 한 방을 이뤄낼 거예요~',
-      '일할 땐 일하고! 놀 땐 놀고!<br>뭐든 확실한 게 좋아요.'
+      '나는 인스타에 내 짝궁 자랑을 많이 해!',
+      '나느 헤어지면 미련? 그런거 안키워~',
+      '나는 사랑 표현이 엄청 많고, 다양해!',
+      '나는 자랑은 아니지만..환승연애를 잘해..ㅎ'
     ],
-    jobs: ['부동산<br>투자자', '주식<br>투자자'],
+    jobs: ['ENFJ', 'ISTJ'],
     lectureImg: '/images/result_lecture4.png',
     lectureUrl: 'https://bit.ly/3fvoTo5'
   },
-  {
-    title: '한 번 집중하면<br>멈출 수 없지!',
+  {//ESFJ
+    title: '나는 ESFJ,<br> 눈치력 만렙 연애집사!',
     character: '/images/result_character5.png',
     results: [
-      '저는 위선과 가식이 없어요.<br>진실만 말하죠. (진지)',
-      '혼자서 더 잘해요.<br>솔로 워커 최고!',
-      '관심 분야가 생기면 끝도 없이 깊어져요.<br>다만 이외에 모든 것엔 관심이 없어요.',
-      '(이상) <<<<<< (현실)<br>가끔 이성에게 상처를 줄 때가 있어요, 그게 아닌데...'
+      '나는 헌신적을 사랑을 하지~',
+      '항상 좋은 말만 하려다 보니 스트레스가 많아..',
+      '나는 짝궁뿐만 아니라 짝궁의 가족도 챙기지!',
+      '나는 도전적인 연애보다는 안정적인 연애가 좋아!'
     ],
-    jobs: ['개발자', '데이터분석가'],
+    jobs: ['ISFJ', 'ESTJ'],
     lectureImg: '/images/result_lecture5.png',
     lectureUrl: 'https://bit.ly/3U0O3Kj'
   },
-  {
-    title: '인생 욜로지~<br>일단 놀자 ><',
+  {//ENFJ
+    title: '나는 ENFJ,<br> 쿠크다시 멘탈 연애 치어리더! ',
     character: '/images/result_character6.png',
     results: [
-      '취미가 100개!<br>이것저것 다재다능해요~',
-      '한가하냐고요?<br>원래 백수가 젤 바쁜 거에요!',
-      '결혼사진에 친구들이 다 들어갈 수 있을까요?',
-      '가끔이지만, 갓생살기 도전해요!'
+      '짝궁의 문제는 내 문제..공감머신이지',
+      '나는 짝궁의 기분에 잘 맞춰줘',
+      '나는 순두부...상처를 쉽게 받아',
+      '짝궁이 신경 쓰지 못하는 부분을 잘 챙겨줘!'
     ],
-    jobs: ['돈 많은 백수', '유튜버'],
+    jobs: ['INFJ', 'INTJ'],
     lectureImg: '/images/result_lecture6.png',
     lectureUrl: 'https://bit.ly/3fzdinR'
-  }
+  },
+  {//INFP
+    title: '나는 INFP,<br> 망상에 사는 철벽금사빠!!',
+    character: '/images/result_character1.png',
+    results: [
+      '나는 연애하기 위한 조건이 꽤 까다로워..',
+      '나는 길거리에서 번호 따는게 젤 싫어!',
+      '나는 오래 알고지낸 사람과 사귀는 것을 좋아해',
+      '나는 한번 만나면 오래 만나는 편이야!'
+    ],
+    jobs: ['ENTJ', 'ENFJ'],
+    lectureImg: '/images/result_lecture1.png',
+    lectureUrl: 'https://bit.ly/3Wr0kt6'
+  },
+  {//ISFP
+    title: '나는 ISFP, <br>귀차니즘 만렙 프로긍정러',
+    character: '/images/result_character1.png',
+    results: [
+      '나는 거절당하는게 싫어서 고백을 안해..ㅎ',
+      '나는 이별 후 후유증이 많은 편이야..',
+      '나는 우정보다는 사랑이 먼저야!',
+      '나는 혼자서 짝사랑하다가 끝난 적이 많아..'
+    ],
+    jobs: ['ESTJ', 'ESFP'],
+    lectureImg: '/images/result_lecture1.png',
+    lectureUrl: 'https://bit.ly/3Wr0kt6'
+  },
+  {//ISFJ
+    title: '나는 ISFP, <br>뒤끝 오지는 사랑집착꾼!',
+    character: '/images/result_character1.png',
+    results: [
+      '나는 연애를 시작하면 결혼까지 생각한다고!',
+      '내 짝궁의 행복은 나의 행복!',
+      '나는 약속시간을 어기는게 제일 싫어!',
+      '나는 사랑을 확인하고 싶어...'
+    ],
+    jobs: ['ESFP', 'ESTP'],
+    lectureImg: '/images/result_lecture1.png',
+    lectureUrl: 'https://bit.ly/3Wr0kt6'
+  },
+  {//INFJ
+    title: '나는 INFJ,<br> 겉차속따 연애꿈나무!',
+    character: '/images/result_character1.png',
+    results: [
+      '나는 기준이 엄격해서 쉽게 사귀지 못해',
+      '나는 먼저 다가가지 못해서, 다가와 주길 바래..',
+      '나는 선넘는게 제일 싫어',
+      '나는 짜증나는게 있어도 티를 내기 않고 마음에 담아둬..'
+    ],
+    jobs: ['ENFP', 'ENTP'],
+    lectureImg: '/images/result_lecture1.png',
+    lectureUrl: 'https://bit.ly/3Wr0kt6'
+  },
+  {//ESTJ
+    title: '나는 ESTJ,<br> 밀당 1도 없는 갓선비!',
+    character: '/images/result_character1.png',
+    results: [
+      '나는 상대에게 헌신적이야.',
+      '나는 프로 데이트 계획러!',
+      '나는 짝궁이 아무리 보고 싶어도 바쁘면 다음에 만나려고 해',
+      '나는 감정에 잘 공감하지도, 숨기지도 못해'
+    ],
+    jobs: ['ISFP', 'ISTP'],
+    lectureImg: '/images/result_lecture1.png',
+    lectureUrl: 'https://bit.ly/3Wr0kt6'
+  },
+  {//ISTP
+    title: '나는 ISTP,<br> 개썅마이웨이 연애주의자!',
+    character: '/images/result_character1.png',
+    results: [
+      '나는 짝궁의 사생활을 존중해.',
+      '나는 나만의 자유시간이 꼭 있어야 해!',
+      '나는 서로 집착하지 않고 어느 정도 선을 지키는 연애를 추구해.',
+      '나는 짝궁의 있는 그래로를 사랑해!'
+    ],
+    jobs: ['ESTJ', 'ENTJ'],
+    lectureImg: '/images/result_lecture1.png',
+    lectureUrl: 'https://bit.ly/3Wr0kt6'
+  },
+  {//INTJ
+    title: '나는 INTJ,<br>고집만렙 연애분석가!',
+    character: '/images/result_character1.png',
+    results: [
+      '나는 평범한 데이트 보단 새로운 데이트가 좋아!',
+      '나는 전형적인 츤데레 스타일~',
+      '나는 사랑을 위해 시간 낭비를 하지 않아.',
+      '나는 연애를 책으로 배우지..'
+    ],
+    jobs: ['ENFP', 'ENTP'],
+    lectureImg: '/images/result_lecture1.png',
+    lectureUrl: 'https://bit.ly/3Wr0kt6'
+  },
+  {//INTP
+    title: '나는 INTP,<br>연애 성공률 1% 나르시스트!',
+    character: '/images/result_character1.png',
+    results: [
+      '나는 썸탈 때 관심이 식으면 손절이 빨라.',
+      '나는 사랑 표현 앞에선 고장난 로봇..',
+      '나는 허세부리는게 제일 싫어!',
+      '나는 기념일에 꽃보다는 실용적인 선물이 좋아.'
+    ],
+    jobs: ['ENFJ', 'ENTJ'],
+    lectureImg: '/images/result_lecture1.png',
+    lectureUrl: 'https://bit.ly/3Wr0kt6'
+  },
+  {//ISTJ
+    title: '나는 ISTJ, <br>리액션 버튼 고장난 연애봇!',
+    character: '/images/result_character1.png',
+    results: [
+      '나는 아무리 짝궁이어도 나대면 극혐이야!',
+      '나는 애정표현이 별로 없어..',
+      '나는 썸기간이 길어.',
+      '나는 한번 사랑에 빠지면 순정파가 돼!'
+    ],
+    jobs: ['ESTP', 'ESFP'],
+    lectureImg: '/images/result_lecture1.png',
+    lectureUrl: 'https://bit.ly/3Wr0kt6'
+  },
+  {//ENFP
+    title: '나는 ENFP, <br>사랑을 쫓는 피터팬!',
+    character: '/images/result_character1.png',
+    results: [
+      '나는 소문난 금사빠!',
+      '나는 좋아하는 사람이 생기면 적극적으로 대시해.',
+      '나는 진실하고 솔직한 사람이 좋아!',
+      '나는 연인이 힘들어 할 때 절대 등을 돌리지 않아!'
+    ],
+    jobs: ['INTJ', 'INFJ'],
+    lectureImg: '/images/result_lecture1.png',
+    lectureUrl: 'https://bit.ly/3Wr0kt6'
+  },
 ];
 export const mbtis = {
   ENTJ: 0,
-  ENTP: 0,
-  ESTP: 0,
-  ESFP: 1,
-  ESFJ: 1,
-  ENFJ: 1,
-  INFP: 2,
-  ISFP: 2,
-  ISFJ: 2,
-  INFJ: 2,
-  ESTJ: 3,
-  ISTP: 3,
-  INTJ: 4,
-  INTP: 4,
-  ISTJ: 4,
-  ENFP: 5
+  ENTP: 1,
+  ESTP: 2,
+  ESFP: 3,
+  ESFJ: 4,
+  ENFJ: 5,
+  INFP: 6,
+  ISFP: 7,
+  ISFJ: 8,
+  INFJ: 9,
+  ESTJ: 10,
+  ISTP: 11,
+  INTJ: 12,
+  INTP: 13,
+  ISTJ: 14,
+  ENFP: 15
 }
