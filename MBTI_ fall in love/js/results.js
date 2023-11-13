@@ -9,8 +9,7 @@ const titleEl = document.querySelector('.page-title')
 const characterEl = document.querySelector('.character')
 const boxEls = document.querySelectorAll('.box')
 const jobEls = document.querySelectorAll('.job')
-const lectureEl = document.querySelector('.lecture')
-const lectureImgEl = document.querySelector('.lecture img')
+const starEls = document.querySelectorAll('.star img')
 
 //test
 console.log(mbtiResult);
@@ -25,5 +24,7 @@ boxEls.forEach(function (boxEl,index) {
 jobEls.forEach(function (jobEl, index) {
   jobEl.innerHTML = result.jobs[index]
 })
-lectureEl.href = result.lectureUrl
-lectureImgEl.src = result.lectureImg
+
+starEls.forEach(function (starEl,index){
+  starEl.src = result.starImg[index]
+})
