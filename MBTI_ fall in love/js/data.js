@@ -110,8 +110,10 @@ export const results = [
       '하지만 나는 연애하는 티를 잘 내지 않아..ㅎ'
     ],
     jobs: ['INFP', 'INTP'],
-    lectureImg: '/images/result_lecture1.png',
-    lectureUrl: 'https://bit.ly/3Wr0kt6'
+    starImg: [
+      '/images/INFP_F.png',
+      '/images/INFP_M.png'
+    ]
   },
   {//ENTP
     title: '나는 ENTP, <br> 단호박 먹은 연애불도저!',
@@ -123,8 +125,10 @@ export const results = [
       '나랑 같이 토론 할 수 있는 사람이 좋아!'
     ],
     jobs: ['INFJ', 'INTJ'],
-    lectureImg: '/images/result_lecture2.png',
-    lectureUrl: 'https://bit.ly/3SZl1t9'
+    starImg: [
+      '/images/INFJ_F.jpeg',
+      '/images/INFJ_M.jpeg'
+    ]
   },
   {//ESTP
     title: '나는 ESTP, <br>브레이크 고장난 연애직진러!',
@@ -136,8 +140,10 @@ export const results = [
       '나는 금사빠..하지만 쉽게 맘이 식어...'
     ],
     jobs: ['ISTJ', 'ISFJ'],
-    lectureImg: '/images/result_lecture3.png',
-    lectureUrl: 'https://bit.ly/3DWlesG'
+    starImg: [
+      '/images/ISTJ_F.jpeg',
+      '/images/ISFJ_M.jpeg'
+    ]
   },
   {//ESFP
     title: '나는 ESFP, <br>썸도 환승도 5G극한러버!',
@@ -149,8 +155,10 @@ export const results = [
       '나는 자랑은 아니지만..환승연애를 잘해..ㅎ'
     ],
     jobs: ['ENFJ', 'ISTJ'],
-    lectureImg: '/images/result_lecture4.png',
-    lectureUrl: 'https://bit.ly/3fvoTo5'
+    starImg: [
+      '/images/ENFJ_F.png',
+      '/images/ENFJ_M.png'
+    ]
   },
   {//ESFJ
     title: '나는 ESFJ,<br> 눈치력 만렙 연애집사!',
@@ -162,8 +170,10 @@ export const results = [
       '나는 도전적인 연애보다는 안정적인 연애가 좋아!'
     ],
     jobs: ['ISFJ', 'ESTJ'],
-    lectureImg: '/images/result_lecture5.png',
-    lectureUrl: 'https://bit.ly/3U0O3Kj'
+    starImg: [
+      '/images/ISFJ_F.jpeg',
+      '/images/ISFJ_M.jpeg'
+    ]
   },
   {//ENFJ
     title: '나는 ENFJ,<br> 쿠크다시 멘탈 연애 치어리더! ',
@@ -175,8 +185,10 @@ export const results = [
       '짝궁이 신경 쓰지 못하는 부분을 잘 챙겨줘!'
     ],
     jobs: ['INFJ', 'INTJ'],
-    lectureImg: '/images/result_lecture6.png',
-    lectureUrl: 'https://bit.ly/3fzdinR'
+    starImg: [
+      '/images/INFJ_F.jpeg',
+      '/images/INFJ_M.jpeg'
+    ]
   },
   {//INFP
     title: '나는 INFP,<br> 망상에 사는 철벽금사빠!!',
@@ -188,8 +200,10 @@ export const results = [
       '나는 한번 만나면 오래 만나는 편이야!'
     ],
     jobs: ['ENTJ', 'ENFJ'],
-    lectureImg: '/images/result_lecture1.png',
-    lectureUrl: 'https://bit.ly/3Wr0kt6'
+    starImg: [
+      '/images/ENTJ_F.png',
+      '/images/ENTJ_M.jpg'
+    ]
   },
   {//ISFP
     title: '나는 ISFP, <br>귀차니즘 만렙 프로긍정러',
@@ -201,8 +215,10 @@ export const results = [
       '나는 혼자서 짝사랑하다가 끝난 적이 많아..'
     ],
     jobs: ['ESTJ', 'ESFP'],
-    lectureImg: '/images/result_lecture1.png',
-    lectureUrl: 'https://bit.ly/3Wr0kt6'
+    starImg: [
+      '/images/ESTJ_F.jpeg',
+      '/images/ESTJ_M.jpeg'
+    ]
   },
   {//ISFJ
     title: '나는 ISFP, <br>뒤끝 오지는 사랑집착꾼!',
@@ -214,8 +230,10 @@ export const results = [
       '나는 사랑을 확인하고 싶어...'
     ],
     jobs: ['ESFP', 'ESTP'],
-    lectureImg: '/images/result_lecture1.png',
-    lectureUrl: 'https://bit.ly/3Wr0kt6'
+    starImg: [
+      '/images/ESFP_F.png',
+      '/images/ESFP_M.png'
+    ]
   },
   {//INFJ
     title: '나는 INFJ,<br> 겉차속따 연애꿈나무!',
@@ -227,8 +245,10 @@ export const results = [
       '나는 짜증나는게 있어도 티를 내기 않고 마음에 담아둬..'
     ],
     jobs: ['ENFP', 'ENTP'],
-    lectureImg: '/images/result_lecture1.png',
-    lectureUrl: 'https://bit.ly/3Wr0kt6'
+    starImg: [
+      '/images/ENFP_F.jpg',
+      '/images/ENFP_M.jpeg'
+    ]
   },
   {//ESTJ
     title: '나는 ESTJ,<br> 밀당 1도 없는 갓선비!',
@@ -240,8 +260,10 @@ export const results = [
       '나는 감정에 잘 공감하지도, 숨기지도 못해'
     ],
     jobs: ['ISFP', 'ISTP'],
-    lectureImg: '/images/result_lecture1.png',
-    lectureUrl: 'https://bit.ly/3Wr0kt6'
+    starImg: [
+      '/images/ISFP_F.png',
+      '/images/ISFP_M.png'
+    ]
   },
   {//ISTP
     title: '나는 ISTP,<br> 개썅마이웨이 연애주의자!',
@@ -253,8 +275,10 @@ export const results = [
       '나는 짝궁의 있는 그래로를 사랑해!'
     ],
     jobs: ['ESTJ', 'ENTJ'],
-    lectureImg: '/images/result_lecture1.png',
-    lectureUrl: 'https://bit.ly/3Wr0kt6'
+    starImg: [
+      '/images/ESTJ_F.jpeg',
+      '/images/ESTJ_M.jpeg'
+    ]
   },
   {//INTJ
     title: '나는 INTJ,<br>고집만렙 연애분석가!',
@@ -266,8 +290,10 @@ export const results = [
       '나는 연애를 책으로 배우지..'
     ],
     jobs: ['ENFP', 'ENTP'],
-    lectureImg: '/images/result_lecture1.png',
-    lectureUrl: 'https://bit.ly/3Wr0kt6'
+    starImg: [
+      '/images/ENFP_F.jpg',
+      '/images/ENFP_M.jpeg'
+    ]
   },
   {//INTP
     title: '나는 INTP,<br>연애 성공률 1% 나르시스트!',
@@ -279,8 +305,10 @@ export const results = [
       '나는 기념일에 꽃보다는 실용적인 선물이 좋아.'
     ],
     jobs: ['ENFJ', 'ENTJ'],
-    lectureImg: '/images/result_lecture1.png',
-    lectureUrl: 'https://bit.ly/3Wr0kt6'
+    starImg: [
+      '/images/ENFJ_F.png',
+      '/images/ENFJ_M.png'
+    ]
   },
   {//ISTJ
     title: '나는 ISTJ, <br>리액션 버튼 고장난 연애봇!',
@@ -292,8 +320,10 @@ export const results = [
       '나는 한번 사랑에 빠지면 순정파가 돼!'
     ],
     jobs: ['ESTP', 'ESFP'],
-    lectureImg: '/images/result_lecture1.png',
-    lectureUrl: 'https://bit.ly/3Wr0kt6'
+    starImg: [
+      '/images/ESTP_F.png',
+      '/images/ESTP_M.png'
+    ]
   },
   {//ENFP
     title: '나는 ENFP, <br>사랑을 쫓는 피터팬!',
@@ -305,8 +335,10 @@ export const results = [
       '나는 연인이 힘들어 할 때 절대 등을 돌리지 않아!'
     ],
     jobs: ['INTJ', 'INFJ'],
-    lectureImg: '/images/result_lecture1.png',
-    lectureUrl: 'https://bit.ly/3Wr0kt6'
+    starImg: [
+      '/images/INTJ_F.jpeg',
+      '/images/INTJ_M.jpeg'
+    ]
   },
 ];
 export const mbtis = {
