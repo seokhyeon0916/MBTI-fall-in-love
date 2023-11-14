@@ -51,7 +51,7 @@ __여러분과 잘 맞는 연인을 찾기 힘드신가요? 그렇다면 MBTI궁
 > ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 > ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
-#### ✏️사업 설명📝
+#### ✏️사업 설명✏️
   * 웹페이지로 구성되어 있는 MBTI검사 홈페이지이다. 
   * 사용자는 유형에 맞게 제작되어 있는 질문 3가지씩, 총 12개의 질문에 응답한다.
   * 질문에 응답한 결과를 종합하여, 짜여져 있는 알고리즘에 따라 유형의 결과가 정해지고 사용자에게 표시된다.
