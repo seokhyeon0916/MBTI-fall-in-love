@@ -7,7 +7,7 @@ __여러분과 잘 맞는 연인을 찾기 힘드신가요? 그렇다면 MBTI궁
 * 20205224 이승연
 > 맡은역할 : Html, JS 메인 개발
 
-#### 프로젝트 진행 상황
+#### 📆프로젝트 진행 상황📆
 * DAY1📆<br>
 > 프로젝트 주제 선정<br>
 > 주제 선정 후 예시 웹페이지 서치, 오픈소스 확인<br>
@@ -58,6 +58,11 @@ __여러분과 잘 맞는 연인을 찾기 힘드신가요? 그렇다면 MBTI궁
   * 사용자에게 MBTI가 표시되면서, 해당 MBTI와 궁합이 잘 맞는 MBTI를 추천해주고 그 MBTI에 해당되는 연인들을 제공한다.
   * 사용자는 결과가 맘에 들지 않을 시 다시 한번 검사할 수 있고 결과 화면을 카카오톡과 같은 SNS에 Link형태로 공유할 수 있다.
   * 또한, 그 Link를 받은 제 3자들은 Link를 통해 웹페이지에 접속/검사 할 수 있다.
+    
+#### 📸시작화면&질문화면📸
+<img src="https://github.com/seokhyeon0916/MBTI_fall_in_love/assets/69139576/9de8523b-9492-4a19-b4fd-768ea4dcd029" width="250" height="350"/><img src="https://github.com/seokhyeon0916/MBTI_fall_in_love/assets/69139576/3213ee96-00cf-45be-8fdb-60cf0f7ddada" width="250" height="350"/><br>
+#### 📸최종결과화면📸
+<img src="https://github.com/seokhyeon0916/MBTI_fall_in_love/assets/69139576/6c9bbf38-cef8-40d0-b8f3-7d89b845e722" width="250" height="350"/><img src="https://github.com/seokhyeon0916/MBTI_fall_in_love/assets/69139576/3f98f964-13ca-4e41-8bfb-c78406706ca1" width="250" height="220"/><br>
 
 #### ⚙️추가해야 할 개발적 요소⚙️
 * 서버를 열어 DB에 사용자들의 검사 결과를 저장(최대 6개월 저장)
