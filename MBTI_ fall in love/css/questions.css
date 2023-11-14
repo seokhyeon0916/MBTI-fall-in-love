@@ -1,0 +1,68 @@
+body {
+  background-image: url("../images/questions_bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.progress {
+  max-width: 700px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+.progress .value {/*주황색 %의 너비가 흰색 너비 벗어나는거 수정(11/08)*/
+  max-width: 100%;
+  width: 8.333%;
+  height: 20px;
+  background-color: #FFB103;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.question-box {
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 25px #DDE2E8;
+  background-color: #FFFFFF;
+}
+.question-box .number {/*질문 숫자 코드부분*/
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 60px;
+  text-align: center;
+  color: #fe9eb1;/*핑크색으로 질문 번호 수정 (11/08)*/
+}
+.question-box .question {/*질문 부분 코드부분*/
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: center;
+}
+.question-box .choice {/*선택지 박스 코드 부분*/
+  border-radius: 120px;
+  font-size: 22px;
+}
+
+@media (max-width: 640px) {
+  .progress {
+    margin-bottom: 30px;
+  }
+  .question-box {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .question-box .question {
+    font-size: 28px;
+  }
+  .question-box .choice {
+    font-size: 20px;
+  }
+}
